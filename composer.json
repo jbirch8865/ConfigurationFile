@@ -1,0 +1,11 @@
+{
+    "name": "jbirc/configuration-file",
+    "description": "basic php class for reading and writing to a configuration file",
+    "authors": [
+        {
+            "name": "Joel Birch",
+            "email": "jbirch88655@gmail.com"
+        }
+    ],
+    "require": {}
+}
