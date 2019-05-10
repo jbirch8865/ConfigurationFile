@@ -4,7 +4,7 @@ namespace Config;
 class ConfigurationFile
 {
 	private $Configurations;
-	function __construct($fileName)
+	function __construct($fileName = "config.local.ini")
 	{
 		if($this->IsThisAString($fileName))
 		{
