@@ -10,10 +10,10 @@ class ConfigurationFile
 		{
 			if($this->DoesFileExist($fileName))
 			{
-				$Configurations = LoadFile($fileName);
+				$this->Configurations = LoadFile($fileName);
 			}else
 			{
-				$Configurations = array();
+				$this->Configurations = array();
 			}
 		}else
 		{
@@ -60,6 +60,11 @@ class ConfigurationFile
 		{
 			throw new \Exception("Error loading this ini configuration file");
 		}
+	}
+
+	function Configurations()
+	{
+		return $this->Configurations;
 	}
 }
 
