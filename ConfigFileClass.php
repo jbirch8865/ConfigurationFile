@@ -23,7 +23,7 @@ class ConfigurationFile
 	
 	private function DoesFileExist($fileName)
 	{
-		if(IsThisAString($fileName))
+		if($this->IsThisAString($fileName))
 		{
 			$file = dirname(__FILE__) . '/' .$fileName;
 			if(file_exists($file))
@@ -45,7 +45,7 @@ class ConfigurationFile
 		{
 			$string = (string) $string;
 			return true;
-		}catch
+		}catch (\Exception $e)
 		{
 			return false;
 		}
@@ -67,6 +67,5 @@ class ConfigurationFile
 		return $this->Configurations;
 	}
 }
-
 
 ?>
