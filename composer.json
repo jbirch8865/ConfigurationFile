@@ -1,16 +1,17 @@
 {
     "name": "jbirc/configuration-file",
-    "description": "php class for reading configuration files",
+    "description": "php class for configuration file loading",
     "authors": [
         {
             "name": "Joel Birch",
             "email": "jbirch88655@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Config\\": "/"
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-0": {
+            "Config": "src/"
         }
-    },
-    "require": {}
+    }
 }
