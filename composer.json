@@ -1,6 +1,6 @@
 {
     "name": "jbirc/configuration-file",
-    "description": "basic php class for reading and writing to a configuration file",
+    "description": "php class for reading configuration files",
     "authors": [
         {
             "name": "Joel Birch",
