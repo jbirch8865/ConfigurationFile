@@ -7,5 +7,10 @@
             "email": "jbirch88655@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "/"
+        }
+    },
     "require": {}
 }
